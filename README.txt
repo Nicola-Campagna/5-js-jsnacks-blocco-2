@@ -7,3 +7,9 @@ verde i numeri pari.
 
 JSNACK-3:
 Crea un array di numeri interi e fai la somma di tutti gli elementi  che sono in posizione dispari
+
+BONUS ::
+
+JSNACK-4:
+Crea  due array che hanno un numero di elementi differenti tra loro.
+Aggiungere all'array con elementi minore , elementi dell'array con elementi maggiori ...fino a quando non avranno elementi uguali
