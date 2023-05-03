@@ -1,12 +1,21 @@
 // inserire un numero
-let number = parseInt(prompt('inserisci un numero'));
+let userNumber = parseInt(prompt('inserisci un numero'));
 
-// SE il n* è pari stampalo
-if (number % 2 == 0) {
-    console.log("numero pari: " + number);
+// SE il valore inserito è un numero
+if (!isNaN(userNumber)) {
+
+    // SE il n* è pari stampalo
+    if (userNumber % 2 == 0) {
+        console.log("numero pari: " + userNumber);
+    }
+    // ALTRIMENTI stampa il n* successivo
+    else {
+        // incremento di 1 il valore inserito dall'utente
+        userNumber++;
+        console.log(userNumber + " numero successivo");
+    }
 }
-// ALTRIMENTI stampa il n* successivo
+// ALTRIMENTI il valore inserito non è un numero
 else {
-    number++;
-    console.log(number + " numero successivo");
+    alert("il valore inserito non è un numero !")
 }
